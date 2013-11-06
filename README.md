@@ -2,21 +2,21 @@
 
 Cipsum.js - Provides Corporate jargon words for use as filler text. Usage - type cipsum20 and hit Tab or expand abbreviation from Emmet menu to get 20 random corporate jargon words.
 
-snippets-extra.json - Provides short-cuts for colorscheme generated color styles. Primary, Secondary A, Secondary B and Complimentary.  View this file to see available snippets. It is self-explanatory.
+snippets-extra.json - Provides short-cuts for [ColorSchemeDesigner.com](http://colorschemedesigner.com)  generated color styles. Primary, Secondary A, Secondary B and Complimentary.  View this file to see available snippets. It is self-explanatory.
 
 I use Susy Grid, so some additional snippets related to Susy Mixins are also available in this file.
 
 ##Install from URL
 
-Download the zip file. 
+Download the zip file and extract the contents into the folder where you place Emmet plugins. 
 
-Windows OS:
+Example: Notepad++ on Windows OS:
 
-Then extract the contents into your Users\<your name>\AppData\Roaming\Notepad++\plugins\config\emmet folder.
+Extract the contents into your Users\<your name>\AppData\Roaming\Notepad++\plugins\config\emmet folder.
 
 Linux and MAC:
 
-Extract the files to your shared folder or wherever you wish and specify the path in your Editor.
+Follow your Editor's instructions.
 
 ##Caution
 
