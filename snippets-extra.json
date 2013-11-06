@@ -1,0 +1,83 @@
+{
+	"variables": {
+		"lang": "en",
+		"locale": "en-US",
+		"charset": "UTF-8",
+		"indentation": "\t",
+		"newline": "\n"
+	},
+	
+	"css": {
+		"filters": "html",
+		"snippets": {
+			"@import": "@import url(|);",
+			"incl": "@include |;",
+			"sep":"/***********/\n/* | */\n/***********/\n|",
+			/* 
+			colorscheme related 
+			*/
+			"p1": "\\$primary-1;",
+			"p2": "\\$primary-2;",
+			"p3": "\\$primary-3;",
+			"p4": "\\$primary-4;",
+			"p5": "\\$primary-5;",
+			"sa1": "\\$secondary-a-1;",
+			"sa2": "\\$secondary-a-2;",
+			"sa3": "\\$secondary-a-3;",
+			"sa4": "\\$secondary-a-4;",
+			"sa5": "\\$secondary-a-5;",
+			"sb1": "\\$secondary-b-1;",
+			"sb2": "\\$secondary-b-2;",
+			"sb3": "\\$secondary-b-3;",
+			"sb4": "\\$secondary-b-4;",
+			"sb5": "\\$secondary-b-5;",
+			"c1": "\\$complimentary-1;",
+			"c2": "\\$complimentary-2;",
+			"c3": "\\$complimentary-3;",
+			"c4": "\\$complimentary-4;",
+			"c5": "\\$complimentary-5;",
+			/* 
+			Susy Grid related 
+			*/
+			"sstc": "\\$total-columns: |;",
+			"sscw": "\\$column-width: |;",
+			"ssgw": "\\$gutter-width: |;",
+			"ssgp": "\\$grid-padding: \\$gutter-width;",
+			"ssnw": "\\$container-width: |;",
+			"sscs": "\\$container-style: ${1:fluid };",
+			"ssco": "@include container;",
+			"sssc": "@include span-columns(|);",
+			"ssom": "@include nth-omega(|);",
+			"sspx": "@include prefix(|);",
+			"sssx": "@include suffix(|);",
+			"sspd": "@include pad(|,|);",
+			"ssbl": "@include bleed(|);",
+			"sspr": "@include pre(|);",
+			"sspo": "@include post(|);",
+			"ssqu": "@include squish(|,|);",
+			"ssps": "@include push(|);",
+			"sspl": "@include pull(|);",
+			"ssrc": "@include reset-columns;",
+			"ssro": "@include remove-nth-omega(|);"
+		}
+	},
+	
+	"html": {
+		"filters": "html",
+		"profile": "html",
+		"snippets": {
+			"!!!":    "<!doctype html>"
+			
+		},
+		
+		"abbreviations": {
+			"!": "html:5"
+			
+		},
+		"snippets": {
+		"jq": "<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>;",
+		"inc": "{% include | %}",
+		"assi": "{% assign |= %}"
+		}
+	}
+}
