@@ -2,9 +2,8 @@
 
 Cipsum.js - Provides Corporate jargon words for use as filler text. Usage - type cipsum20 and hit Tab or expand abbreviation from Emmet menu to get 20 random corporate jargon words.
 
-snippets-extra.json - Provides short-cuts for [ColorSchemeDesigner.com](http://colorschemedesigner.com)  generated color styles. Primary, Secondary A, Secondary B and Complimentary.  View this file to see available snippets. It is self-explanatory.
+snippets-extra.json - Provides short-cuts for [paletton.com](http://paletton.com)  generated color styles. Primary, Secondary A, Secondary B and Complimentary.  View this file to see available snippets. It is self-explanatory.
 
-I use Susy Grid, so some additional snippets related to Susy Mixins are also available in this file.
 
 ##Install from URL
 
